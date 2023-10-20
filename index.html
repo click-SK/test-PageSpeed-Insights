@@ -29,7 +29,8 @@
 	<link rel="stylesheet" type="text/css" href="/css/air-datepicker.css"/>
 	<link rel="stylesheet" type="text/css" href="/css/calculator.css"/>
 	<link rel="stylesheet" type="text/css" href="/css/services2.css"/>
-	
+	<script src="/js/jquery-3.5.1.min.js"></script>
+	<script src="/js/jquery.inputmask.min.js"></script>
 	<script type="application/ld+json">
 	{
 		"@context": "http://schema.org",
@@ -46,6 +47,7 @@
 		}
 	}
 	</script>
+
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -161,7 +163,7 @@
 				<li class="main-breadcrumbs-active-link" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><span itemprop="name">Грузовое такси</span><meta itemprop="position" content="2" /></li>
 			</ul>
 			<div class="row align-items-center">
-				<div class="col-12 col-sm-6 col-lg-7"><img src="/images/cargo-taxi.svg" width="630" height="auto" alt="Грузовое такси"></div>
+				<div class="col-12 col-sm-6 col-lg-7"><img src="/images/cargo-taxi.svg" width="630" height="390" alt="Грузовое такси"></div>
 				<div class="col-12 col-sm-6 col-lg-5 banner-text">
 					<h1>Грузовое такси в Киеве</h1>
 					<div class="banner-buy"><button class="open-phone-form default banner-size" type="button" data-type="Кнопка с баннера">Заказать</button></div>
@@ -471,21 +473,21 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-4 item">
-					<img src="/images/fast.svg" width="220" height="auto" alt="Грузовая машина с таймером">
+					<img src="/images/fast.svg" width="220" height="194" alt="Грузовая машина с таймером">
 					<div class="b-item-text">
 						<span class="item-title">Быстрая подача транспорта</span>
 						<span class="item-description">Машина приедет в течение 30 минут после заказа</span>
 					</div>
 				</div>
 				<div class="col-12 col-md-4 item">
-					<img src="/images/cheap.svg" width="220" height="auto" alt="Кошелек с деньгами">
+					<img src="/images/cheap.svg" width="220" height="194" alt="Кошелек с деньгами">
 					<div class="b-item-text">
 						<span class="item-title">Доступная цена</span>
 						<span class="item-description">Самые низкие цены на перевозку в Киеве</span>
 					</div>
 				</div>
 				<div class="col-12 col-md-4 item">
-					<img src="/images/round-the-clock.svg" width="220" height="auto" alt="Календарь">
+					<img src="/images/round-the-clock.svg" width="220" height="194" alt="Календарь">
 					<div class="b-item-text">
 						<span class="item-title">Работаем круглосуточно</span>
 						<span class="item-description">Работаем без праздников и выходных в любое время дня и ночи</span>
@@ -515,7 +517,7 @@
 				<div class="col-12 all-cars">
 					<div class="slider-wrapper">
 						<div class="car-card active" data-id="first">
-							<div class="image-block"><img src="/images/cars/car-bus-2-meters.svg" width="230" height="auto" alt="Грузовой бус 2 метра"></div>
+							<div class="image-block"><img src="/images/cars/car-bus-2-meters.svg" width="230" height="100" alt="Грузовой бус 2 метра"></div>
 							<div class="title-block">Грузовой бус 2 метра</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -538,7 +540,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="Грузовой бус 2 метра" data-title="Грузовой бус 2 метра">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="first">
-							<div class="image-block"><img src="/images/cars/car-bus-3-meters.svg" width="230" height="auto" alt="Грузовой бус 3 метра"></div>
+							<div class="image-block"><img src="/images/cars/car-bus-3-meters.svg" width="230" height="100" alt="Грузовой бус 3 метра"></div>
 							<div class="title-block">Грузовой бус 3 метра</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -561,7 +563,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="Грузовой бус 3 метра" data-title="Грузовой бус 3 метра">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="first">
-							<div class="image-block"><img src="/images/cars/car-bus-4-meters.svg" width="230" height="auto" alt="Грузовой бус 4 метра"></div>
+							<div class="image-block"><img src="/images/cars/car-bus-4-meters.svg" width="230" height="100" alt="Грузовой бус 4 метра"></div>
 							<div class="title-block">Грузовой бус 4 метра</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -584,7 +586,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="Грузовой бус 4 метра" data-title="Грузовой бус 4 метра">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="first">
-							<div class="image-block"><img src="/images/cars/car-gazel-3-meters.svg" width="230" height="auto" alt="Машина Газель 3 метра"></div>
+							<div class="image-block"><img src="/images/cars/car-gazel-3-meters.svg" width="230" height="100" alt="Машина Газель 3 метра"></div>
 							<div class="title-block">Газель 3 метра</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -607,7 +609,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="Газель 3 метра" data-title="Газель 3 метра">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="first">
-							<div class="image-block"><img src="/images/cars/car-gazal-4-meters.svg" width="230" height="auto" alt="Машина Газель 4 метра тент"></div>
+							<div class="image-block"><img src="/images/cars/car-gazal-4-meters.svg" width="230" height="100" alt="Машина Газель 4 метра тент"></div>
 							<div class="title-block">Газель 4 метра тент</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -630,7 +632,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="Газель 4 метра тент" data-title="Газель 4 метра тент">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="first">
-							<div class="image-block"><img src="/images/cars/car-gazal-4-meters-furgon.svg" width="230" height="auto" alt="Машина Газель 4 метра фургон"></div>
+							<div class="image-block"><img src="/images/cars/car-gazal-4-meters-furgon.svg" width="230" height="100" alt="Машина Газель 4 метра фургон"></div>
 							<div class="title-block">Газель 4 метра фургон</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -653,7 +655,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="Газель 4 метра фургон" data-title="Газель 4 метра фургон">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="second">
-							<div class="image-block"><img src="/images/cars/car-3-tons.svg" width="230" height="auto" alt="Машина 3 тонны тент"></div>
+							<div class="image-block"><img src="/images/cars/car-3-tons.svg" width="230" height="100" alt="Машина 3 тонны тент"></div>
 							<div class="title-block">3 тонны тент</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -676,7 +678,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="3 тонны тент" data-title="3 тонны тент">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="second">
-							<div class="image-block"><img src="/images/cars/car-3-tons-furgon.svg" width="230" height="auto" alt="Машина 3 тонны фургон"></div>
+							<div class="image-block"><img src="/images/cars/car-3-tons-furgon.svg" width="230" height="100" alt="Машина 3 тонны фургон"></div>
 							<div class="title-block">3 тонны фургон</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -699,7 +701,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="3 тонны фургон" data-title="3 тонны фургон">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="third">
-							<div class="image-block"><img src="/images/cars/car-5-tons.svg" width="230" height="auto" alt="Машина 5 тонн тент"></div>
+							<div class="image-block"><img src="/images/cars/car-5-tons.svg" width="230" height="100" alt="Машина 5 тонн тент"></div>
 							<div class="title-block">5 тонн тент</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -722,7 +724,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="5 тонн тент" data-title="5 тонн тент">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="third">
-							<div class="image-block"><img src="/images/cars/car-5-tons-furgon.svg" width="230" height="auto" alt="Машина 5 тонн фургон"></div>
+							<div class="image-block"><img src="/images/cars/car-5-tons-furgon.svg" width="230" height="100" alt="Машина 5 тонн фургон"></div>
 							<div class="title-block">5 тонн фургон</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -745,7 +747,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="5 тонн фургон" data-title="5 тонн фургон">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="fourth">
-							<div class="image-block"><img src="/images/cars/car-10-tons.svg" width="230" height="auto" alt="Машина 10 тонн тент и 7 метров"></div>
+							<div class="image-block"><img src="/images/cars/car-10-tons.svg" width="230" height="100" alt="Машина 10 тонн тент и 7 метров"></div>
 							<div class="title-block">10 тонн тент</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -768,7 +770,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="10 тонн тент" data-title="10 тонн тент">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="fourth">
-							<div class="image-block"><img src="/images/cars/car-10-tons-furgon.svg" width="230" height="auto" alt="Машина 10 тонн фургон и 7 метров"></div>
+							<div class="image-block"><img src="/images/cars/car-10-tons-furgon.svg" width="230" height="100" alt="Машина 10 тонн фургон и 7 метров"></div>
 							<div class="title-block">10 тонн фургон</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -791,7 +793,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="10 тонн фургон" data-title="10 тонн фургон">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="fifth">
-							<div class="image-block"><img src="/images/cars/car-20-tons.svg" width="230" height="auto" alt="Машина Фура 20 тонн тент и 13,5 метров"></div>
+							<div class="image-block"><img src="/images/cars/car-20-tons.svg" width="230" height="100" alt="Машина Фура 20 тонн тент и 13,5 метров"></div>
 							<div class="title-block">Фура 20 тонн тент</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -814,7 +816,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="Фура 20 тонн тент" data-title="Фуру тент 20 тонн">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="fifth">
-							<div class="image-block"><img src="/images/cars/car-20-tons-furgon.svg" width="230" height="auto" alt="Машина Фура 20 тонн фургон и 13,5 метров"></div>
+							<div class="image-block"><img src="/images/cars/car-20-tons-furgon.svg" width="230" height="100" alt="Машина Фура 20 тонн фургон и 13,5 метров"></div>
 							<div class="title-block">Фура 20 тонн фургон</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -837,7 +839,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="Фура 20 тонн фургон" data-title="Фуру фургон 20 тонн">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="sixth">
-							<div class="image-block"><img src="/images/cars/car-open-3-meters.svg" width="230" height="auto" alt="Машина борт 3 метра"></div>
+							<div class="image-block"><img src="/images/cars/car-open-3-meters.svg" width="230" height="100" alt="Машина борт 3 метра"></div>
 							<div class="title-block">Борт 3 метра</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -859,7 +861,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="Борт 3 метра" data-title="Борт 3 метра">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="sixth">
-							<div class="image-block"><img src="/images/cars/car-open-4-meters.svg" width="230" height="auto" alt="Машина борт 4 метра"></div>
+							<div class="image-block"><img src="/images/cars/car-open-4-meters.svg" width="230" height="100" alt="Машина борт 4 метра"></div>
 							<div class="title-block">Борт 4 метра</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -881,7 +883,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="Борт 4 метра" data-title="Борт 4 метра">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="seventh">
-							<div class="image-block"><img src="/images/cars/car-glass-3-meters.svg" width="230" height="auto" alt="Машина Пирамида 3 метра"></div>
+							<div class="image-block"><img src="/images/cars/car-glass-3-meters.svg" width="230" height="100" alt="Машина Пирамида 3 метра"></div>
 							<div class="title-block">Пирамида 3 метра</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -900,7 +902,7 @@
 							<div class="buy"><button class="open-phone-form default middle-size" type="button" data-type="Пирамида 3 метра" data-title="Пирамиду 3 метра">Заказать</button></div>
 						</div>
 						<div class="car-card active" data-id="seventh">
-							<div class="image-block"><img src="/images/cars/car-glass-4-meters.svg" width="230" height="auto" alt="Машина Пирамида 4 метра"></div>
+							<div class="image-block"><img src="/images/cars/car-glass-4-meters.svg" width="230" height="100" alt="Машина Пирамида 4 метра"></div>
 							<div class="title-block">Пирамида 4 метра</div>
 							<div class="description-block">
 								<div class="price-block">
@@ -936,7 +938,7 @@
 			<div class="row justify-content-center">
 				<div class="col-12 col-md-6 img-item">
 					<div class="mover-icon">
-						<img src="/images/mover.svg" alt="Грузовое такси с грузчиками" title="Грузчик компании Гузар с коробками" width="400" height="auto">
+						<img src="/images/mover.svg" alt="Грузовое такси с грузчиками" title="Грузчик компании Гузар с коробками" width="400" height="256">
 						<div class="price-mover"><span class="title">Цена</span><span class="price" data-number="0">200</span><span class="curency"> грн/час</span></div>
 					</div>
 				</div>
@@ -1282,8 +1284,7 @@
 		</div>
 	</div>
 	<script src="/js/air-datepicker.js"></script>
-	<script src="/js/jquery-3.5.1.min.js"></script>
-	<script src="/js/jquery.inputmask.min.js"></script>
+
 	<script src="/js/jq-calculate.js"></script>
 	<script src="/js/script.js"></script>
 </body>
