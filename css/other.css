@@ -1,0 +1,139 @@
+/*Страница диван начало*/
+section.information .divan-wrap {
+	justify-content: start;
+}
+section.information .divan-wrap .divan-item {
+	text-align: center;
+	border-bottom: 1px solid #cfcfcf;
+}
+section.information .divan-wrap .divan-item .divan-img {
+	width: 100%;
+}
+section.information .divan-wrap .divan-item .divan-name {
+	font-size: 21px;
+	display: block;
+	width: 80%;
+	line-height: 1.2;
+	margin: 0 auto 10px auto;
+}
+section.information .divan-wrap .divan-item:nth-child(2n + 1) {
+	border-right: 1px solid #cfcfcf;
+}
+/*Страница диван конец*/
+
+/*Доп таблица начало*/
+section.information .table-wrap {
+	overflow-x: auto;
+	margin: 10px 0;
+}
+section.information .table-wrap table {
+	width: 560px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+}
+section.information .table-wrap table tr th, section.information .table-wrap table tr td {
+	border: 1px solid #d5d5d5;
+}
+section.information .table-wrap table tr th {
+	white-space: nowrap;
+	font-weight: 500;
+	padding: 9px 8px;
+	font-size: 18px;
+	background-color: #ffce8d;
+	text-align: center;
+	line-height: 1.2;
+}
+section.information .table-wrap table tr td.first-name {
+	white-space: nowrap;
+	font-size: 17px;
+	line-height: 1.2;
+	padding: 8px 10px;
+	min-width: 100px;
+}
+section.information .table-wrap table tr td.number {
+	white-space: nowrap;
+	font-size: 17px;
+	line-height: 1.2;
+	padding: 8px 10px;
+
+	min-width: 100px;
+}
+section.information .narrow-table table {
+	width: 400px;
+}
+/*Доп таблица конец*/
+
+
+
+
+
+/*col-lg*/
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+	/*Страница диван начало*/
+	section.information .divan-wrap {
+		justify-content: center;
+	}
+	section.information .divan-wrap .divan-item:nth-child(2n + 1) {
+		border-right: none;
+	}
+	section.information .divan-wrap .divan-item .divan-name {
+		font-size: 20px;
+	}
+	/*Страница диван конец*/
+
+	/*Доп таблица начало*/
+	section.information .table-wrap table {
+		width: 500px;
+	}
+	section.information .narrow-table table {
+		width: 360px;
+	}
+	section.information .infotable table tr th {
+		font-size: 17px;
+	}
+	section.information .table-wrap table tr td.first-name {
+		font-size: 16px;
+	}
+	section.information .table-wrap table tr td.number  {
+		font-size: 16px;
+		min-width: 90px;
+	}
+	/*Доп таблица конец*/
+}
+
+
+@media (max-width: 767.98px) {
+
+}
+@media (max-width: 575.98px) {
+	/*Страница диван начало*/
+	section.information .divan-wrap .divan-item .divan-name {
+		font-size: 18px;
+	}
+	/*Страница диван конец*/
+
+	/*Доп таблица начало*/
+	section.information .table-wrap table {
+		width: 390px;
+	}
+	section.information .narrow-table table {
+		width: 300px;
+	}
+	section.information .table-wrap table tr th {
+		font-size: 16px;
+		padding: 10px 8px;
+	}
+	section.information .table-wrap table tr td.first-name {
+		font-size: 15px;
+	}
+	section.information .table-wrap table tr td.number {
+		font-size: 15px;
+		min-width: 80px;
+	}
+	/*Доп таблица конец*/
+}

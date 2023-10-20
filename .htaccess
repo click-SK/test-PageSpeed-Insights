@@ -1,0 +1,43 @@
+RewriteEngine On
+DirectorySlash Off
+
+RewriteRule ^index\.html$ https://gruzar.com.ua [R=301,L]
+RewriteRule ^(.*)/index\.html$ https://gruzar.com.ua/$1 [R=301,L]
+
+#www to no www
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^www.gruzar\.com\.ua$ [NC]
+RewriteRule ^(.*)$ https://gruzar.com.ua/$1 [R=301,L]
+
+#http to https
+RewriteCond %{ENV:HTTPS} !on
+RewriteRule (.*) https://gruzar.com.ua/$1 [R=301,L]
+
+#.html to none
+RewriteBase /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP/ [NC]
+RewriteRule ^([^.]+)\.html$ https://gruzar.com.ua/$1 [R=301,L]
+RewriteCond %{REQUEST_URI} !(\.[^./]+)$
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule (.*) /$1.html
+
+# Delete slash
+RewriteRule ^(.*)/$ https://gruzar.com.ua/$1 [R=301,L]
+
+
+# Add slash to dir
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*[^/])$ /$1/ [L,END]
+
+# ErrorDocument 404 /404
+
+# 404
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-l
+#RewriteRule ^([a-z]{2}) /$1/404 [R,L]
+
+
+

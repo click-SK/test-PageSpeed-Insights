@@ -1,0 +1,687 @@
+span.bold {
+	font-weight: 600;
+}
+section.banner {
+	position: relative;
+	z-index: 0;
+}
+section.banner img {
+	margin: 6px 0 16px 0;
+}
+.banner .banner-text h1{
+	font-size: 48px;
+	font-weight: 500;
+	text-align: left;
+	color: #303030;
+	margin-bottom: 40px;
+	line-height: 1.1;
+}
+
+.banner .banner-text-undertitle {
+	margin-top: 10px;
+	font-size: 26px;
+	font-weight: 400;
+	text-align: left;
+	color: #303030;
+}
+
+.main-title {
+	padding: 20px 0 30px;
+	font-size: 34px;
+	font-weight: 700;
+	text-align: center;
+	color: #303030;
+}
+/*заголовок для основы*/
+/* блок преимущества начало*/
+section.benefits {
+	padding: 50px 0 10px 0;
+}
+section.benefits .item {
+	text-align: center;
+	margin-bottom: 50px
+}
+section.benefits .item img {
+	width: 220px;
+}
+section.benefits .item span.item-title {
+	font-size: 21px;
+	font-weight: 500;
+	margin: 14px 0 0 0;
+	height: 42px;
+	line-height: 1.1;
+	display: block;
+}
+section.benefits .item span.item-description {
+	font-size: 16px;
+	color: #888888;
+	line-height: 1.1;
+	display: block;
+}
+/* блок преимущества конец*/
+.servise-title {
+	font-size: 36px;
+	margin: 10px 0 30px 0;
+	text-align: center;
+	font-weight: 500;
+}
+/* блок машины начало*/
+section.cars {
+	padding: 30px 0; 
+}
+section.cars .tablist-cars {
+	text-align: center;
+	margin-bottom: 50px;
+	width: 100%;
+}
+section.cars .tablist-cars ul {
+	list-style-type: none;
+	display: inline-block;
+}
+section.cars .tablist-cars ul li {
+	display: inline-block;
+	font-size: 18px;
+	padding: 8px 16px;
+	margin-right: 20px;
+	border: 1px solid #CCCCCC;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	cursor: pointer;
+}
+section.cars .tablist-cars ul li.active-tab {
+	background-color: #448DCE;
+	color: #fff;
+}
+section.cars .tablist-cars ul.second-tablist li:last-child {
+	margin-right: 0;
+}
+section.cars .first-tablist {
+	margin-bottom: 20px
+}
+section.cars .all-cars {
+	overflow-x: scroll;
+}
+section.cars .all-cars::-webkit-scrollbar {
+	background-color: #CCCCCC;
+	height: 14px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+}
+section.cars .all-cars::-webkit-scrollbar-thumb {
+	background-color: #448DCE;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+}
+section.cars .slider-wrapper {
+	width: 5154px;
+}
+section.cars .car-card {
+	display: none;
+	width: 290px;
+	border: 1px solid #C4C4C4;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	box-shadow: 0 0 12px #C4C4C4;
+	-moz-box-shadow: 0 0 12px #C4C4C4;
+	-webkit-box-shadow: 0 0 12px #C4C4C4;
+	-o-box-shadow: 0 0 12px #C4C4C4;
+	-ms-box-shadow: 0 0 12px #C4C4C4;
+	padding: 20px 0 20px 0;
+	margin: 0 0 20px 0;
+}
+section.cars .car-card.active {
+	display: inline-block;
+
+}
+section.cars .car-card.active + .car-card.active {
+	margin-left: 30px;
+}
+section.cars .car-card .image-block {
+	text-align: center;
+	margin-bottom: 20px;
+	height: 110px;
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	align-items: end;
+	justify-content: center;
+}
+section.cars .car-card .title-block {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	align-items: center;
+	height: 46px;
+	background-color: #F3F5F7;
+	padding: 4px 16px;
+	font-size: 22px;
+	font-weight: 500;
+}
+section.cars .car-card .description-block {
+	padding: 0 10px;
+}
+section.cars .car-card .description-block .price-block {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 8px 10px 6px 10px;
+	border-bottom: 1px solid #C4C4C4;
+}
+section.cars .car-card .description-block .price-block .rate, section.cars .car-card .description-block .price-block .supply {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+section.cars .car-card .description-block .price-block .rate {
+	margin-bottom: 5px;
+}
+section.cars .car-card .description-block .price-block .supply {
+	padding-right: 24px;
+}
+section.cars .car-card .description-block .price-block span {
+	height: 24px;
+}
+section.cars .car-card .description-block .price-block span.title-price {
+	font-size: 18px;
+}
+section.cars .car-card .description-block .price-block span.price {
+	color: #376c95;
+	font-size: 24px;
+	font-weight: 700;
+}
+section.cars .car-card .description-block .price-block span.price.fura {
+	font-size: 17px;
+}
+section.cars .car-card .description-block .price-block span.price span {
+	font-size: 12px;
+}
+section.cars .car-card .description-block .sizes-block {
+	font-weight: 400;
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	padding: 8px 10px;
+	border-bottom: 1px solid #C4C4C4;
+	color: #444444;
+}
+section.cars .car-card .description-block .sizes-block .sizes-row {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	justify-content: space-between;
+	width: 98%;
+	margin-bottom: 8px;
+}
+section.cars .car-card .description-block .sizes-block .sizes-col {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	width: 50%;
+	flex-direction: column;
+}
+section.cars .car-card .description-block .sizes-block .sizes-col p {
+	width: 90%;
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	line-height: 1.2;
+}
+section.cars .car-card .description-block .sizes-block .sizes-col span {
+	margin-left: auto;
+}
+section.cars .car-card .description-block .sizes-block .sizes-col span.volume {
+	font-size: 10px;
+	display: inline;
+	position: absolute;
+}
+section.cars .car-card .description-block .car-minimum {
+	padding: 8px 10px 8px 4px;
+	color: #444444;
+}
+section.cars .car-card .buy {
+	text-align: center;
+}
+section.cars .car-card .buy .open-phone-form {
+	font-size: 16px;
+	padding: 12px 50px;
+}
+/* Блок с машинами конец */
+/* Блок с грузчиком начало */
+section.mover {
+	padding: 30px 0;
+}
+section.mover h2 {
+	font-size: 36px;
+	text-align: center;
+	font-weight: 500;
+	margin: 20px 0 40px 0;
+}
+section.mover .img-item {
+	text-align: center;
+}
+section.mover .mover-icon {
+	border: 1px solid #EAF1FB;
+	display: inline-block;
+	border-radius: 10px 60px 10px 10px;
+	-moz-border-radius: 10px 60px 10px 10px;
+	-webkit-border-radius: 10px 60px 10px 10px;
+	-o-border-radius: 10px 60px 10px 10px;
+	-ms-border-radius: 10px 60px 10px 10px;
+
+}
+section.mover .mover-icon img {
+	margin-top: 10px;
+	line-height: 0;
+	display: block;
+}
+section.mover .price-mover {
+	background-color: #EAF1FB;
+	padding: 6px 0;
+	border-radius: 0 0 8px 8px;
+	-moz-border-radius: 0 0 8px 8px;
+	-webkit-border-radius: 0 0 8px 8px;
+	-o-border-radius: 0 0 8px 8px;
+	-ms-border-radius: 0 0 8px 8px;
+}
+section.mover .price-mover span.title {
+	font-size: 24px;
+}
+section.mover .price-mover span.price {
+	margin-left: 10px;
+	font-weight: 500;
+	font-size: 28px;
+	color: #376c95;
+}
+section.mover .price-mover span.curency {
+	font-weight: 500;
+	font-size: 14px;
+	color: #376c95;
+}
+section.mover .text {
+	font-size: 19px;
+	font-weight: 400;
+}
+section.mover ul.work {
+	list-style-type: none;
+	line-height: 1.2;
+	padding-left: 10px;
+}
+section.mover ul.work li {
+	position: relative;
+	padding-left: 30px;
+}
+section.mover ul.work li + li {
+	margin: 15px 0;
+}
+
+section.mover ul.work li:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	left: 0;
+	top: 20%;
+	background: #F19455;
+}
+/* Блок с грузчиком конец */
+/* Блок с локациями начало */
+section.regions {
+	padding: 30px 0;
+}
+section.regions .servise-title {
+	margin: 10px 0 20px 0;
+}
+section.regions .second-title {
+	font-size: 36px;
+	font-weight: 500;
+	text-align: center;
+	margin: 40px 0 10px 0;
+}
+section.regions span {
+	display: block;
+	font-size: 16px;
+}
+section.regions span + span {
+	margin: 12px 0;
+}
+section.regions span.full {
+	margin-bottom: 10px;
+	display: inline-block;
+	color: #448DCE;
+	letter-spacing: 0.03em;
+	border-bottom: 1px solid #448DCE;
+}
+/* Блок с локациями конец */
+
+
+/* Блок с текстами начало */
+.information {
+	padding: 10px 0;
+}
+
+.information .row {
+	background-color: #e1ecf4;
+	padding: 15px 0;
+}
+
+.information .information-title {
+	margin: 10px 0 0 0;
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+	color: #303030;
+}
+
+.information img {
+	display: block;
+	margin: 0 auto;
+}
+
+.information .information-text {
+	padding-top: 30px;
+	font-size: 20px;
+	text-align: left;
+	color: #3a3434;
+}
+.information .information-text p {
+	line-height: 1.3;
+	text-indent: 30px;
+}
+.information .information-text p + p{
+	padding-top: 6px;
+}
+
+.information .information-item {
+	margin-bottom: 50px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+}
+.information .information-item:last-child {
+	margin-bottom: 0;
+}
+/* Блок с текстами конец */
+/* Блок с вопросами начало */
+.faq {
+	margin: 40px 0;
+}
+.faq .faq-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+.faq .faq-item {
+	border-bottom: 1px #CCCCCC solid;
+	padding-bottom: 20px;
+}
+.faq .faq-item:last-child {
+	border: none;
+}
+.faq h3.faq-question {
+	font-size: 20px;
+	color: #0073b1;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	padding: 20px 0 10px;
+	font-weight: 500;
+}
+.faq .faq-answer {
+	font-size: 16px;
+	color: #474747;
+	line-height: 1.3;
+}
+.faq .faq-answer p {
+	padding-bottom: 10px;
+	line-height: 1.3;
+}
+.faq .faq-answer span {
+	font-weight: 700;
+}
+
+.faq .faq-answer ul {
+	padding: 8px 0 5px 30px;
+}
+/* Блок с вопросами конец */
+
+
+/*col-lg*/
+@media (max-width: 1199.98px) {
+	.banner .banner-text h1 {
+		font-size: 40px;
+	}
+	/* блок преимущества начало */
+	section.benefits .item img {
+		width: 200px;
+	}
+	/* блок преимущества конец */
+	.faq {
+		margin: 20px 0 40px;
+	}
+}
+
+/*col-md*/
+@media (max-width: 991.98px) {
+	.banner .banner-text h1 {
+		font-size: 36px;
+	   margin-bottom: 30px;
+	}
+	/* блок преимущества начало */
+	section.benefits .item img {
+		width: 180px;
+	}
+	section.benefits .item span.item-title {
+		font-size: 19px;
+		margin: 14px 0 10px 0;
+	}
+	section.benefits .item span.item-description {
+		font-size: 15px;
+	}
+	/* блок преимущества конец */
+	/* блок с машиными начало */
+	section.cars .tablist-cars ul.tablist li:last-child {
+		margin-right: 0;
+	}
+	section.cars .car-card {
+		max-width: 250px;
+	}
+	section.cars .car-card .image-block {
+		height: 100px;
+	}
+	section.cars .car-card .image-block img {
+		width: 190px;
+	}
+	section.cars .car-card .title-block {
+		height: 36px;
+	}
+	section.cars .car-card .title-block {
+		font-size: 19px;
+	}
+	section.cars .car-card .description-block .price-block span {
+		height: 20px;
+	}
+	section.cars .car-card .description-block .price-block span.title-price {
+		font-size: 17px;
+	}
+	section.cars .car-card .description-block .price-block span.price {
+		font-size: 23px
+	}
+	section.cars .car-card .description-block .price-block span.price span {
+		font-size: 11px;
+	}
+	section.cars .car-card .description-block .price-block span.price.fura {
+		font-size: 16px;
+	}
+	/* блок с машиными конец */
+	/* блок с грузчиком начало */
+	section.mover .price-mover span.title {
+		font-size: 22px;
+	}
+	section.mover .price-mover span.price {
+		font-size: 26px;
+	}
+	section.mover .text {
+		font-size: 18px;
+	}
+	/* блок с грузчиком конец */
+	section.regions span {
+		font-size: 15px;
+	}
+	.information .information-title {
+		font-size: 24px;
+	}
+	.information .information-text {
+		padding-top: 15px;
+		font-size: 18px;
+	}
+	.faq .faq-wrapper {
+		width: 100%;
+	}
+}
+
+/*col-sm*/
+@media (max-width: 767.98px) {
+	.banner .banner-text h1 {
+		font-size: 29px;
+		margin-bottom: 20px;
+	}
+	/* блок преимущества начало */
+	section.benefits .item {
+		display: flex;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		align-items: center;
+		margin-bottom: 40px;
+		text-align: left;
+	}
+	section.benefits .item img {
+		width: 110px;
+		margin-right: 30px;
+	}
+	section.benefits .item span.item-title {
+		display: inline-block;
+		height: auto;
+		margin: 0 0 8px 0;
+	}
+	section.benefits .item span.item-description {
+		display: inline-block;
+	}
+	/* блок преимущества конец */
+	section.mover .mover-icon img {
+		width: 340px;
+	}
+	section.mover .mover-icon {
+		margin-bottom: 30px;
+	}
+	.information .information-title {
+		margin: 0 0 10px 0;
+	}
+	.faq .main-title-small {
+		font-size: 26px;
+		margin: 10px 0 20px;
+	}
+
+
+}
+
+/*col*/
+@media (max-width: 575.98px) {
+	section.banner .banner-text {
+		padding: 10px 4px 20px 4px;
+	}
+	section.banner .banner-text h1 {
+		margin: 30px 0 40px 0;
+		text-align: center;
+		line-height: 1.2;
+	}
+	section.banner .banner-buy {
+		text-align: center;
+	}
+	/* блок преимущества начало */
+	section.benefits .item img {
+		width: 90px;
+	}
+	section.benefits .item span.item-title {
+		font-size: 18px;
+	}
+	/* блок преимущества конец */
+	.servise-title, section.regions .second-title {
+		font-size: 30px;
+	}
+	section.cars .tablist-cars ul.second-tablist li {
+		font-size: 16px;
+		padding: 8px 4px;
+		margin-right: 4px;
+	}
+	section.cars .tablist-cars ul li {
+		font-size: 16px;
+		padding: 8px;
+		margin-right: 10px;
+	}
+	/*section.cars .swiper-button-prev:after {
+		content: '\1F850';
+		font-size: 40px;
+	}
+	section.cars .swiper-button-next:after {
+		content: '🡒';
+		font-size: 40px;
+	}*/
+	section.cars .swiper-button-next, section.cars .swiper-button-prev {
+		top: 0;
+	}
+	section.cars .swiper-button-next {
+		right: 50px;
+	}
+	section.cars .swiper-button-prev {
+		left: 50px;
+	}
+	section.mover h2 {
+		font-size: 30px;
+	}
+	section.mover .text {
+		font-size: 17px;
+	}
+	section.regions span {
+		font-size: 14px;
+	}
+	.information{
+		margin-top: 10px;
+	}
+	.information .information-title {
+		font-size: 22px;
+	}
+	.information .information-text {
+		font-size: 16px;
+	}
+	.faq h3.faq-question {
+		font-size: 18px;
+	}
+	.faq .faq-answer {
+		font-size: 15px;
+	}
+}

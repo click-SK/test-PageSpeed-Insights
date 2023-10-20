@@ -1,0 +1,1172 @@
+span.bold {
+	font-weight: 600;
+}
+section.banner {
+	position: relative;
+	z-index: 0;
+}
+section.banner img {
+	margin: 6px 0 16px 0;
+}
+section.banner .banner-text h1 {
+	font-size: 44px;
+	font-weight: 500;
+	text-align: left;
+	color: #303030;
+	margin-bottom: 40px;
+	line-height: 1.1;
+}
+section.banner .banner-text-undertitle {
+	margin-top: 10px;
+	font-size: 26px;
+	font-weight: 400;
+	text-align: left;
+	color: #303030;
+}
+.main-title {
+	padding: 20px 0 30px;
+	font-size: 34px;
+	font-weight: 700;
+	text-align: center;
+	color: #303030;
+}
+/*заголовок для основы*/
+
+/* блок преимущества начало*/
+section.benefits {
+	padding: 50px 0 10px 0;
+}
+section.benefits .item {
+	text-align: center;
+	margin-bottom: 50px
+}
+section.benefits .item img {
+	width: 220px;
+}
+section.benefits .item span.item-title {
+	font-size: 21px;
+	font-weight: 500;
+	margin: 14px 0 0 0;
+	height: 42px;
+	line-height: 1.1;
+	display: block;
+}
+section.benefits .item span.item-description {
+	font-size: 16px;
+	color: #888888;
+	line-height: 1.1;
+	display: block;
+}
+/* блок преимущества конец*/
+.servise-title {
+	font-size: 36px;
+	margin: 10px 0 30px 0;
+	text-align: center;
+	font-weight: 500;
+}
+/* блок машины начало*/
+section.cars {
+	padding: 30px 0; 
+}
+section.cars .tablist-cars {
+	text-align: center;
+	margin-bottom: 50px;
+	width: 100%;
+}
+section.cars .tablist-cars ul {
+	list-style-type: none;
+	display: inline-block;
+}
+section.cars .tablist-cars ul li {
+	display: inline-block;
+	font-size: 18px;
+	padding: 8px 16px;
+	margin-right: 20px;
+	border: 1px solid #CCCCCC;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	cursor: pointer;
+}
+section.cars .tablist-cars ul li.active-tab {
+	background-color: #448DCE;
+	color: #fff;
+}
+section.cars .tablist-cars ul.second-tablist li:last-child {
+	margin-right: 0;
+}
+section.cars .first-tablist {
+	margin-bottom: 20px
+}
+section.cars .all-cars {
+	overflow-x: scroll;
+}
+section.cars .all-cars::-webkit-scrollbar {
+	background-color: #CCCCCC;
+	height: 14px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+}
+section.cars .all-cars::-webkit-scrollbar-thumb {
+	background-color: #448DCE;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	-ms-border-radius: 20px;
+}
+section.cars .slider-wrapper {
+	width: 5154px;
+}
+section.cars .car-card {
+	display: none;
+	width: 290px;
+	border: 1px solid #C4C4C4;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	box-shadow: 0 0 12px #C4C4C4;
+	-moz-box-shadow: 0 0 12px #C4C4C4;
+	-webkit-box-shadow: 0 0 12px #C4C4C4;
+	-o-box-shadow: 0 0 12px #C4C4C4;
+	-ms-box-shadow: 0 0 12px #C4C4C4;
+	padding: 20px 0 20px 0;
+	margin: 0 0 20px 0;
+}
+section.cars .car-card.active {
+	display: inline-block;
+
+}
+section.cars .car-card.active + .car-card.active {
+	margin-left: 30px;
+}
+section.cars .car-card .image-block {
+	text-align: center;
+	margin-bottom: 20px;
+	height: 110px;
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	align-items: end;
+	justify-content: center;
+}
+section.cars .car-card .title-block {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	align-items: center;
+	height: 46px;
+	background-color: #F3F5F7;
+	padding: 4px 16px;
+	font-size: 21px;
+	font-weight: 500;
+}
+section.cars .car-card .description-block {
+	padding: 0 10px;
+}
+section.cars .car-card .description-block .price-block {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 8px 10px 6px 10px;
+	border-bottom: 1px solid #C4C4C4;
+}
+section.cars .car-card .description-block .price-block .rate, section.cars .car-card .description-block .price-block .supply {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+section.cars .car-card .description-block .price-block .rate {
+	margin-bottom: 5px;
+}
+section.cars .car-card .description-block .price-block .supply {
+	padding-right: 24px;
+}
+section.cars .car-card .description-block .price-block span.title-price {
+	font-size: 17px;
+}
+section.cars .car-card .description-block .price-block span.price {
+	color: #376c95;
+	font-size: 21px;
+	font-weight: 700;
+}
+section.cars .car-card .description-block .price-block span.price.fura {
+	font-size: 17px;
+}
+section.cars .car-card .description-block .price-block span.price span {
+	font-size: 12px;
+}
+section.cars .car-card .description-block .sizes-block {
+	font-weight: 400;
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	padding: 8px 10px;
+	border-bottom: 1px solid #C4C4C4;
+	color: #444444;
+}
+section.cars .car-card .description-block .sizes-block .sizes-row {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	justify-content: space-between;
+	width: 98%;
+	margin-bottom: 8px;
+}
+section.cars .car-card .description-block .sizes-block .sizes-col {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	width: 50%;
+	flex-direction: column;
+}
+section.cars .car-card .description-block .sizes-block .sizes-col p {
+	width: 90%;
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	line-height: 1.2;
+}
+section.cars .car-card .description-block .sizes-block .sizes-col span {
+	margin-left: auto;
+}
+section.cars .car-card .description-block .sizes-block .sizes-col span.volume {
+	font-size: 10px;
+	display: inline;
+	position: absolute;
+}
+section.cars .car-card .description-block .car-minimum {
+	padding: 8px 0;
+	color: #444444;
+	text-align: center;
+}
+section.cars .car-card .description-block .car-minimum span.minimum-title {
+	font-weight: 500;
+	display: block;
+	margin-bottom: 6px;
+}
+section.cars .car-card .buy {
+	text-align: center;
+}
+section.cars .car-card .buy .open-phone-form {
+	font-size: 16px;
+	padding: 12px 50px;
+}
+/* Блок с машинами конец */
+/* Блок с грузчиком начало */
+section.mover {
+	padding: 30px 0;
+}
+section.mover h2, section.cases h2  {
+	font-size: 32px;
+	text-align: center;
+	font-weight: 500;
+	margin: 20px 0 30px 0;
+	line-height: 1.2;
+}
+section.mover .infotext {
+	margin-bottom: 34px;
+}
+section.mover .infotext p {
+	font-size: 17px;
+	line-height: 1.4;
+	margin-bottom: 12px;
+	color: #444444;
+}
+section.mover .img-item {
+	text-align: center;
+}
+section.mover .mover-icon {
+	border: 1px solid #EAF1FB;
+	display: inline-block;
+	border-radius: 10px 60px 10px 10px;
+	-moz-border-radius: 10px 60px 10px 10px;
+	-webkit-border-radius: 10px 60px 10px 10px;
+	-o-border-radius: 10px 60px 10px 10px;
+	-ms-border-radius: 10px 60px 10px 10px;
+}
+section.mover .mover-icon img {
+	margin-top: 10px;
+	line-height: 0;
+	display: block;
+}
+section.mover .price-mover {
+	background-color: #EAF1FB;
+	padding: 6px 0;
+	border-radius: 0 0 8px 8px;
+	-moz-border-radius: 0 0 8px 8px;
+	-webkit-border-radius: 0 0 8px 8px;
+	-o-border-radius: 0 0 8px 8px;
+	-ms-border-radius: 0 0 8px 8px;
+}
+section.mover .price-mover span.title {
+	font-size: 24px;
+}
+section.mover .price-mover span.price {
+	margin-left: 10px;
+	font-weight: 500;
+	font-size: 28px;
+	color: #376c95;
+}
+section.mover .price-mover span.curency {
+	font-weight: 500;
+	font-size: 14px;
+	color: #376c95;
+}
+section.mover .text {
+	font-size: 19px;
+	font-weight: 400;
+}
+section.mover ul.work {
+	list-style-type: none;
+	line-height: 1.2;
+	padding-left: 10px;
+}
+section.mover ul.work li {
+	position: relative;
+	padding-left: 30px;
+}
+section.mover ul.work li + li {
+	margin: 15px 0;
+}
+section.mover ul.work li:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	left: 0;
+	top: 20%;
+	background: #F19455;
+}
+/* Блок с грузчиком конец */
+/* Блок с текстами начало НОВЫЙ */
+section.information {
+	padding: 10px 0;
+	font-size: 17px;
+}
+section.information h2 {
+	font-size: 32px;
+	margin: 30px 0 10px 0;
+	line-height: 1.2;
+	font-weight: 500;
+}
+section.information h3 {
+	font-size: 23px;
+	margin: 30px 0 10px 0;
+	line-height: 1.2;
+	font-weight: 500;
+}
+section.information p {
+	line-height: 1.4;
+	margin: 0 0 12px 0;
+	color: #444444;
+}
+section.informationt p.marker {
+	padding-left: 10px;
+}
+section.information p.marker:before {
+	content: '\27A4';
+	padding: 0 14px;
+	position: relative;
+	color: #F19455;
+	font-size: 18px;
+}
+section.information a {  
+	color: #054ada;
+}
+section.information a:hover {
+	color: #f80;
+	text-decoration: none;
+}
+section.information ol, section.information ul {
+	color: #444444;
+	padding-left: 36px;
+	line-height: 1.3;
+	margin: 0;
+}
+section.information li {
+	margin: 7px 0;
+	position: relative;
+}
+section.information ol li::marker {
+	font-size: 22px;
+	color: #4d82b1;
+	line-height: 1;
+}
+section.information ol li {
+	padding-left: 6px;
+}
+section.information ul li::marker {
+	font-size: 21px;
+	color: #4d82b1;
+	line-height: 1;
+}
+section.information .infotable {
+	overflow-x: auto;
+	margin: 20px 0 10px 0;
+}
+section.information .infotable table {
+	width: 630px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+}
+section.information .infotable table tr td, section.information .infotable table tr th {
+	border: 1px solid #d5d5d5;
+	white-space: nowrap;
+}
+section.information .infotable table tr th.car {
+	width: 440px;
+}
+section.information .infotable table tr th {
+	font-weight: 500;
+	padding: 12px 8px;
+	font-size: 19px;
+	background-color: #ffce8d;
+	text-align: center;
+	line-height: 1.2;
+}
+section.information .infotable table tr td.name-car {
+	font-size: 18px;
+	white-space: nowrap;
+}
+section.information .infotable table tr td {
+	padding: 10px;
+	font-size: 17px;
+	line-height: 1.2;
+}
+section.information p.under-price {
+	font-size: 15px;
+	color: #6b6b6b;
+	line-height: 1.2;
+	margin-left: 20px;
+}
+/* Блок с текстами конец НОВЫЙ*/
+/*Кейсы начало*/
+section.cases div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+section.cases .cese-wrap {
+	box-sizing: border-box;
+	border-radius: 16px;
+	border: 1px #CCCCCC solid;
+	padding: 10px 5px;
+	margin-bottom: 30px;
+}
+section.cases .cese-wrap .case-images {
+	width: 100%;
+	max-width: 476px;
+	display: flex;
+	flex-wrap: wrap;
+	height: 250px;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto 10px auto;
+}
+section.cases .cese-wrap .case-images img {
+	display: block;
+	margin: 0;
+	line-height: 0;
+	padding: 0;
+	border-radius: 10px;
+	width: 120px;
+	height: 120px;
+}
+section.cases .cese-wrap .case-images img:nth-child(-n+3) {
+	margin-bottom: 10px;
+}
+section.cases .cese-wrap .title {
+	display: flex;
+	align-items: center;
+	height: 70px;
+	padding: 0 10px 0 30px;
+	margin-bottom: 10px;
+	font-size: 21px;
+	line-height: 1.1;
+	font-weight: 500;
+}
+section.cases .cese-wrap .info {
+	display: flex;
+	font-size: 15px;
+	margin-bottom: 2px;
+}
+section.cases .cese-wrap .info .left-side {
+	width: 46%;
+	padding-left: 30px;
+}
+section.cases .cese-wrap .info .date {
+	position: relative;
+	padding-left: 36px;
+	margin-bottom: 10px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+}
+section.cases .cese-wrap .info .date:before {
+	content: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 40 40'><path d='M36,40H4c-2.3,0-4-1.7-4-4V6.7c0-2.5,1.7-4,3.3-4h2v2.7h-2c-0.1,0-0.2,0.1-0.2,0.1C3,5.5,3,5.6,2.9,5.7 C2.7,6,2.7,6.3,2.7,6.7v4h34.7v2.7H2.7V36c0,0.3,0.1,0.7,0.4,1c0.3,0.3,0.7,0.4,1,0.4h32c0.3,0,0.7-0.1,1-0.4s0.4-0.7,0.4-1V6.7 c0-0.4-0.1-0.7-0.2-1C37,5.6,37,5.5,36.9,5.4c-0.1,0-0.1-0.1-0.2-0.1h-2V2.7h2c1.6,0,3.3,1.5,3.3,4V36C40,38.3,38.3,40,36,40z M30.7,8c-0.5,0-0.8-0.2-1-0.4c-0.2-0.2-0.4-0.5-0.4-1V1.3c0-0.5,0.2-0.8,0.4-1c0.2-0.2,0.5-0.4,1-0.4c0.5,0,0.8,0.2,1,0.4 c0.2,0.2,0.4,0.5,0.4,1v5.3c0,0.5-0.2,0.8-0.4,1C31.5,7.8,31.2,8,30.7,8z M9.3,8c-0.5,0-0.8-0.2-1-0.4C8.2,7.5,8,7.2,8,6.7V1.3 c0-0.5,0.2-0.8,0.4-1C8.5,0.2,8.8,0,9.3,0c0.5,0,0.8,0.2,1,0.4c0.2,0.2,0.4,0.5,0.4,1v5.3c0,0.5-0.2,0.8-0.4,1C10.1,7.8,9.8,8,9.3,8 z M26.7,5.3H13.3V2.7h13.3V5.3z M32,16h2.7v2.7H32V16z M26.7,16h2.7v2.7h-2.7V16z M21.3,16H24v2.7h-2.7V16z M16,16h2.7v2.7H16V16z M10.7,16h2.7v2.7h-2.7V16z M32,21.3h2.7V24H32V21.3z M26.7,21.3h2.7V24h-2.7V21.3z M21.3,21.3H24V24h-2.7V21.3z M16,21.3h2.7V24H16 V21.3z M10.7,21.3h2.7V24h-2.7V21.3z M5.3,21.3H8V24H5.3V21.3z M32,26.7h2.7v2.7H32V26.7z M26.7,26.7h2.7v2.7h-2.7V26.7z M21.3,26.7 H24v2.7h-2.7V26.7z M16,26.7h2.7v2.7H16V26.7z M10.7,26.7h2.7v2.7h-2.7V26.7z M5.3,26.7H8v2.7H5.3V26.7z M26.7,32h2.7v2.7h-2.7V32z M21.3,32H24v2.7h-2.7V32z M16,32h2.7v2.7H16V32z M10.7,32h2.7v2.7h-2.7V32z M5.3,32H8v2.7H5.3V32z' fill='%235099D9'/></svg>");
+	display: block;
+	position: absolute;
+	width: 25px;
+	line-height: 0;
+	left: 0;
+	bottom: 18%;
+}
+section.cases .cese-wrap .info .mover {
+	position: relative;
+	padding-left: 36px;
+	margin-bottom: 10px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+}
+section.cases .cese-wrap .info .mover:before {
+	content: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 40 40'><path d='M29.9,40c-2.7,0-5.5,0-8.2,0c-1.5,0-1.9-0.4-1.9-1.9c0-5.1,0-10.1,0-15.2c0-1.5,0.5-1.9,1.9-1.9 c5.5,0,10.9,0,16.4,0c1.5,0,1.9,0.4,1.9,2c0,5.1,0,10.1,0,15.1c0,1.6-0.4,1.9-1.9,1.9C35.4,40,32.6,40,29.9,40z M22.7,37.2 c4.8,0,9.6,0,14.3,0c0-4.4,0-8.9,0-13.2c-1.1,0-2.1,0-3.3,0c0,0.3,0,0.5,0,0.8c0,2,0,4,0,6c0,1.4-0.5,1.8-1.8,1.8	c-1.4,0-2.7,0-4.1,0c-1.5,0-1.9-0.4-1.9-1.9c0-2,0-4,0-5.9c0-0.2,0-0.5,0-0.8c-1.2,0-2.2,0-3.3,0C22.7,28.4,22.7,32.7,22.7,37.2z M30.8,29.7c0-1.9,0-3.8,0-5.7c-0.6,0-1.3,0-1.9,0c0,1.9,0,3.8,0,5.7C29.6,29.7,30.2,29.7,30.8,29.7z M23.9,6.1c1.2,0,2.3,0,3.4,0 c0.9,0,1.6,0.5,1.6,1.3c0,0.9-0.4,1.6-1.5,1.6c-0.8,0-1.8,0-2.7,0c-0.2,0-0.5,0-0.7,0c-0.3,1.7-0.6,3.2-1.1,4.7 c-0.5,1.9-1.6,3.5-2.9,4.9c-2.2,2.1-5.1,2.2-7.4,0.1c-2-1.8-2.9-4.1-3.6-6.6C8.3,9.2,8.5,6.3,8.6,3.5C8.7,1.4,10.3,0,12.4,0 c2.5,0,5.1,0,7.6,0c2.2,0,3.7,1.5,3.9,3.7C23.9,4.4,23.9,5.2,23.9,6.1z M20.8,9.1c-3.1,0-6.2,0-9.3,0c0.1,0.5,0.1,0.9,0.2,1.4	c0.2,0.9,0.4,1.8,0.6,2.7c0.4,1.3,1.1,2.4,2.1,3.4c1.2,0.9,2.3,0.9,3.4,0c0.2-0.2,0.5-0.5,0.7-0.8C20.1,13.8,20.6,11.5,20.8,9.1z M20.9,6.1c0-0.8,0-1.6,0-2.3C20.9,3.3,20.5,3,20,3c-2.5,0-4.9,0-7.5,0c-0.6,0-0.9,0.3-1.1,0.9c0,0.7,0,1.6,0,2.3 C14.6,6.1,17.8,6.1,20.9,6.1z M3.2,30.6c0.1-1.1,0.5-2.2,0.9-3.3c0.2-0.7,0.8-1.1,1.6-0.9c0.4,0,0.9,0,1.4,0 c1.9-0.1,3.8-1.7,4.3-3.5c0.2-0.7-0.1-1.4-0.7-1.7C10,20.9,9.4,21,8.8,21.6c-0.2,0.3-0.4,0.6-0.6,0.9c-0.3,0.5-0.8,0.8-1.6,0.8 c-0.3,0-0.6,0-0.8,0c-1.9-0.1-3.4,0.6-4.1,2.4c-0.6,1.3-1.2,2.7-1.3,4.1C0,32.7,0.1,35.5,0,38.2C0,39.6,0.4,40,1.8,40 c4.7,0,9.4,0,14.1,0c1.2,0,1.8-0.5,1.8-1.4c0-0.9-0.6-1.5-1.8-1.5s-2.4,0.1-3.6,0.1c-1.1,0-2.1-0.1-3.3-0.1c0-0.3,0-0.5,0-0.8 c0-1.3,0-2.6,0-3.9c0-0.8-0.5-1.4-1.3-1.4c-0.8,0-1.4,0.3-1.6,1.2c-0.1,0.4-0.1,0.8-0.1,1.3c0,1.3,0,2.4,0,3.7c-1.2,0-2.2,0-3.4,0	C2.8,34.9,2.9,32.7,3.2,30.6z' fill='%235099D9' /></svg>");
+	display: block;
+	position: absolute;
+	width: 25px;
+	line-height: 0;
+	left: 0;
+	bottom: 24%;
+}
+section.cases .cese-wrap .info .car {
+	position: relative;
+	padding-left: 36px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+}
+section.cases .cese-wrap .info .car:before {
+	content: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 40 30'><path d='M13.8,24.9c-0.1,1.6-0.7,2.9-2,3.8c-1.5,1.1-3.3,1.3-5,0.6c-1.8-0.8-2.8-2.1-3-4c-0.1-0.5-0.2-0.5-0.6-0.5 c-0.6,0-1.4,0-2,0c-0.6,0-1.2-0.5-1.2-1.3c0-0.6,0.5-1.2,1.2-1.2c1,0,1.8,0,2.8,0c0.3,0,0.5-0.1,0.7-0.3c2.1-2.8,6.1-2.8,8.2,0 c0.1,0.2,0.3,0.2,0.5,0.3c0.1,0,0.2,0,0.2,0c3,0,5.9,0,8.9,0c0-6.6,0-13.3,0-19.9c-0.2,0-0.4,0-0.6,0c-6.7,0-13.3,0-20,0 c-0.2,0-0.4,0-0.6,0C0.5,2.4,0.1,2,0,1.3c0-0.5,0.4-1.1,1-1.3C1.2,0,1.5,0,1.8,0C9,0,16.2,0,23.4,0C24.6,0,25,0.5,25,1.6 c0,6.7,0,13.3,0,20c0,0.2,0,0.5,0,0.8c0.6,0,1.2,0,1.8,0c0.2,0,0.3-0.2,0.4-0.3c2.2-2.8,6.1-2.8,8.2,0c0.1,0.2,0.3,0.3,0.5,0.3 c0.5,0,1,0,1.6,0c0-1.7,0-3.4,0-5.1c-0.2,0-0.4,0-0.6,0c-1.8,0-3.5,0-5.3,0c-1.1,0-1.5-0.5-1.5-1.5c0-1.7,0-3.5,0-5.3 c0-0.2,0-0.3,0-0.5c-0.8,0-1.6,0-2.3,0c-0.8,0-1.4-0.5-1.4-1.1c-0.1-0.7,0.5-1.3,1.2-1.3c2.6,0,5,0,7.6,0c0.5,0,0.9,0.2,1,0.7 c1.2,2.4,2.5,4.8,3.7,7.2c0.2,0.2,0.2,0.6,0.2,0.9c0,2.4,0,4.8,0,7.1c0,1-0.4,1.5-1.5,1.5c-0.7,0-1.4,0-2.2,0 c-0.1,1.2-0.4,2.2-1.1,3.1c-1.3,1.6-3.3,2.2-5.3,1.6c-1.9-0.5-3.3-2.3-3.5-4.2c0-0.3-0.1-0.5-0.5-0.5c-3.9,0-7.8,0-11.7,0 C14,24.9,13.9,24.9,13.8,24.9z M8.8,27.3c1.4,0,2.5-1.1,2.5-2.4c0-1.3-1.1-2.4-2.5-2.4c-1.4,0-2.5,1.2-2.5,2.4 C6.3,26.2,7.4,27.3,8.8,27.3z M31.1,27.3c1.4,0,2.5-1,2.5-2.4c0-1.3-1.1-2.4-2.5-2.5c-1.4,0-2.5,1.1-2.5,2.4 C28.8,26.2,29.8,27.3,31.1,27.3z M32.5,9.9c0,1.6,0,3.2,0,4.9c1.4,0,2.7,0,4.1,0c-0.8-1.6-1.6-3.1-2.3-4.6c-0.1-0.1-0.2-0.2-0.3-0.2 C33.5,9.9,33,9.9,32.5,9.9z M13.7,8.6c0.8,0,1.4-0.5,1.4-1.2c0-0.7-0.5-1.3-1.3-1.3c-0.2,0-0.4,0-0.6,0c-3.8,0-7.7,0-11.6,0 c-0.4,0-0.9,0.2-1.2,0.4C0,6.9,0,7.4,0.2,7.9c0.2,0.5,0.6,0.8,1.2,0.8c2.1,0,4.1,0,6.1,0C9.6,8.6,11.6,8.6,13.7,8.6z M11,13.6 c1,0,1.8,0,2.8,0c0.8,0,1.3-0.5,1.3-1.3c0-0.7-0.6-1.2-1.4-1.2c-2.8,0-5.6,0-8.4,0c-1.3,0-2.6,0-3.9,0c-0.6,0-1,0.2-1.2,0.8 c-0.4,0.9,0.2,1.7,1.3,1.7c2.1,0,4.1,0,6.1,0C8.7,13.6,9.9,13.6,11,13.6z' fill='%235099D9' /></svg>");
+	display: block;
+	position: absolute;
+	width: 25px;
+	line-height: 0;
+	left: 0;
+	bottom: 26%;
+}
+section.cases .cese-wrap .info .right-side {
+	width: 56%;
+	min-height: 120px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: start;
+	flex-direction: column;
+}
+section.cases .cese-wrap .info .place {
+	position: relative;
+	padding-left: 36px;
+	height: 33px;
+}
+section.cases .cese-wrap .info .place:before {
+	content: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' viewBox='0 0 18 26'><path d='M0,8.7C0,3.9,4,0,9,0c5,0,9,3.9,9,8.7c0,1.4-0.4,2.9-1.1,4.1L9.5,25.7C9.4,25.9,9.2,26,9,26s-0.4-0.1-0.5-0.3 L1.1,12.8C0.4,11.5,0,10.1,0,8.7z M9,13c2.5,0,4.5-1.9,4.5-4.3c0-2.4-2-4.3-4.5-4.3c-2.5,0-4.5,1.9-4.5,4.3C4.5,11.1,6.5,13,9,13z' fill='%235099D9' /></svg>");
+	display: block;
+	position: absolute;
+	width: 16px;
+	line-height: 0;
+	bottom: 22%;
+	left: 2%;
+}
+section.cases .cese-wrap .info .place:not(:last-child) {
+	margin-bottom: 8px;
+}
+section.cases .cese-wrap  .info .place span.street, section.cases .cese-wrap .info .place span.house {
+	display: block;
+	line-height: 1.1;
+}
+section.cases .cese-wrap .lower-side {
+	display: flex;
+	align-items: center;
+}
+section.cases .cese-wrap .lower-side table {
+	width:90%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 auto;
+}
+section.cases .cese-wrap .lower-side table tr td, section.cases .cese-wrap .lower-side table tr th {
+	border: 1px solid #d5d5d5;
+}
+section.cases .cese-wrap .lower-side table .text-left {
+	text-align: left;
+	padding: 9px 2px 7px 20px;
+}
+section.cases .cese-wrap .lower-side table .text-center {
+	text-align: center;
+	padding: 9px 2px 7px 2px;
+}
+section.cases .cese-wrap .lower-side table thead tr th {
+	font-size: 16px;
+	font-weight: 500;
+	background-color: #ffce8d;
+}
+section.cases .cese-wrap .lower-side table tbody tr td {
+	font-size: 14px;
+	line-height: 1.1;
+	min-width: 90px;
+}
+section.cases .cese-wrap .lower-side table tr td span {
+	font-size: 12px;
+}
+section.cases .cese-wrap .lower-side table tfoot tr td {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.1;
+}
+/*Кейсы конец*/
+
+/* Блок с вопросами начало */
+.faq {
+	margin: 40px 0;
+}
+.faq .faq-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+.faq .servise-title {
+	font-size: 32px;
+}
+.faq .faq-item {
+	border-bottom: 1px #CCCCCC solid;
+	padding-bottom: 20px;
+}
+.faq .faq-item:last-child {
+	border: none;
+}
+.faq h3.faq-question {
+	font-size: 20px;
+	color: #0073b1;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	padding: 20px 0 10px;
+	font-weight: 500;
+}
+.faq .faq-answer {
+	font-size: 16px;
+	color: #474747;
+	line-height: 1.3;
+}
+.faq .faq-answer p {
+	padding-bottom: 10px;
+	line-height: 1.3;
+}
+.faq .faq-answer span {
+	font-weight: 700;
+}
+
+.faq .faq-answer ul {
+	padding: 8px 0 5px 30px;
+}
+/* Блок с вопросами конец */
+/* Блок с локациями начало */
+section.regions {
+	padding: 30px 0;
+}
+section.regions .servise-title {
+	margin: 10px 0 20px 0;
+	font-size: 34px;
+}
+section.regions .second-title {
+	font-size: 36px;
+	font-weight: 500;
+	text-align: center;
+	margin: 40px 0 10px 0;
+}
+section.regions span {
+	display: block;
+	font-size: 16px;
+}
+section.regions span + span {
+	margin: 12px 0;
+}
+section.regions span.full {
+	margin-bottom: 10px;
+	display: inline-block;
+	color: #448DCE;
+	letter-spacing: 0.03em;
+	border-bottom: 1px solid #448DCE;
+}
+/* Блок с локациями конец */
+
+/*col-lg*/
+@media (max-width: 1199.98px) {
+	section.banner .banner-text h1 {
+		font-size: 40px;
+	}
+
+	/* блок преимущества начало */
+	section.benefits .item img {
+		width: 200px;
+	}
+	/* блок преимущества конец */
+	section.mover h2, section.cases h2, .faq .servise-title {
+		font-size: 30px;
+	}
+	section.information h2 {
+		font-size: 30px;
+	}
+	section.information h3 {
+		font-size: 21px;
+	}
+	section.regions .servise-title {
+		font-size: 32px;
+	}
+	/*Кейсы начало*/
+	section.cases .cese-wrap .title {
+		padding: 0 10px;
+		font-size: 20px;
+	}
+	section.cases .cese-wrap .info .left-side {
+		padding-left: 10px;
+	}
+	section.cases .cese-wrap .lower-side table {
+		width: 96%;
+	}
+	/*Кейсы конец*/
+	.faq {
+		margin: 20px 0 40px;
+	}
+}
+
+/*col-md*/
+@media (max-width: 991.98px) {
+	section.banner .banner-text h1 {
+		font-size: 36px;
+		margin-bottom: 30px;
+	}
+	/* блок преимущества начало */
+	section.benefits .item img {
+		width: 180px;
+	}
+	section.benefits .item span.item-title {
+		font-size: 19px;
+		margin: 14px 0 10px 0;
+	}
+	section.benefits .item span.item-description {
+		font-size: 15px;
+	}
+	/* блок преимущества конец */
+	.servise-title {
+		font-size: 33px;
+	}
+	/* блок с машиными начало */
+	section.cars .tablist-cars ul.tablist li:last-child {
+		margin-right: 0;
+	}
+	section.cars .car-card {
+		max-width: 250px;
+	}
+	section.cars .car-card .image-block {
+		height: 100px;
+	}
+	section.cars .car-card .image-block img {
+		width: 190px;
+	}
+	section.cars .car-card .title-block {
+		height: 36px;
+	}
+	section.cars .car-card .title-block {
+		font-size: 19px;
+	}
+	section.cars .car-card .description-block .price-block .supply {
+		padding-right: 21px;
+	}
+	section.cars .car-card .description-block .price-block span {
+		height: 20px;
+	}
+	section.cars .car-card .description-block .price-block span.price {
+		font-size: 20px
+	}
+	section.cars .car-card .description-block .price-block span.price span {
+		font-size: 11px;
+	}
+	section.cars .car-card .description-block .price-block span.price.fura {
+		font-size: 16px;
+	}
+	/* блок с машиными конец */
+	/* блок с грузчиком начало */
+	section.mover h2, section.cases h2, .faq .servise-title {
+		font-size: 28px;
+	}
+	section.mover .infotext {
+		margin-bottom: 30px;
+	}
+	section.mover .price-mover span.title {
+		font-size: 22px;
+	}
+	section.mover .price-mover span.price {
+		font-size: 26px;
+	}
+	section.mover .text {
+		font-size: 18px;
+	}
+	/* блок с грузчиком конец */
+	/* блок с информацией начало */
+	section.information h2 {
+		font-size: 28px;
+	}
+	section.information h3 {
+		font-size: 21px;
+	}
+	section.information .infotable table {
+		width: 580px;
+	}
+	section.information .infotable table tr th {
+		font-size: 18px;
+	}
+	section.information .infotable table tr th.car {
+		width: 410px;
+	}
+	section.information .infotable table tr td.name-car {
+		font-size: 17px;
+	}
+	section.information .infotable table tr td {
+		font-size: 16px;
+		min-width: 98px;
+	}
+	/* блок с информацией конец */
+	/*Кейсы начало*/
+	section.cases .cese-wrap .case-images {
+		max-width: 396px;
+		height: 210px;
+	}
+	section.cases .cese-wrap .case-images img {
+		width: 100px;
+		height: 100px;
+	}
+	section.cases .cese-wrap .title {
+		font-size: 18px;
+		padding: 0 2px;
+		height: 60px;
+	}
+	section.cases .cese-wrap .info {
+		font-size: 13px;
+	}
+	section.cases .cese-wrap .info .left-side {
+		padding-left: 2px;
+		width: 42%;
+	}
+	section.cases .cese-wrap .info .date, section.cases .cese-wrap .info .mover, section.cases .cese-wrap .info .car {
+		padding-left: 26px;
+		height: 28px;
+	}
+	section.cases .cese-wrap .info .date:before, section.cases .cese-wrap .info .mover:before, section.cases .cese-wrap .info .car:before {
+		width: 20px;
+	}
+	section.cases .cese-wrap .info .right-side {
+		width: 58%;
+		min-height: 104px;
+	}
+	section.cases .cese-wrap .info .place {
+		padding-left: 20px;
+		height: 29px;
+	}
+	section.cases .cese-wrap .info .place:before {
+		width: 12px;
+		bottom: 26%;
+	}
+	section.cases .cese-wrap .lower-side table {
+		width: 100%;
+	}
+	section.cases .cese-wrap .lower-side table thead tr th {
+		font-size: 14px;
+	}
+	section.cases .cese-wrap .lower-side table tbody tr td {
+		font-size: 13px;
+	}
+	section.cases .cese-wrap .lower-side table tr td span {
+		font-size: 11px;
+	}
+	section.cases .cese-wrap .lower-side table tfoot tr td {
+		font-size: 14px;
+	}
+	/*Кейсы конец*/
+	.faq .faq-wrapper {
+		width: 100%;
+	}
+	section.regions .servise-title {
+		font-size: 30px;
+	}
+	section.regions span {
+		font-size: 15px;
+	}
+}
+
+/*col-sm*/
+@media (max-width: 767.98px) {
+	section.banner .banner-text h1 {
+		font-size: 29px;
+		margin-bottom: 20px;
+	}
+	/* блок преимущества начало */
+	section.benefits .item {
+		display: flex;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		align-items: center;
+		margin-bottom: 40px;
+		text-align: left;
+	}
+	section.benefits .item img {
+		width: 110px;
+		margin-right: 30px;
+	}
+	section.benefits .item span.item-title {
+		display: inline-block;
+		height: auto;
+		margin: 0 0 8px 0;
+	}
+	section.benefits .item span.item-description {
+		display: inline-block;
+	}
+	/* блок преимущества конец */
+	section.mover h2, section.cases h2, .faq .servise-title  {
+		font-size: 25px;
+		margin: 20px 0;
+	}
+	section.mover .mover-icon img {
+		width: 340px;
+	}
+	section.mover .mover-icon {
+		margin-bottom: 30px;
+	}
+	/* блок с информацией начало */
+	section.information {
+		margin: 0 0 10px 0;
+	}
+	section.information h2 {
+		font-size: 25px;
+	}
+	section.information h3 {
+		font-size: 20px;
+	}
+	section.information .infotable table {
+		width: 530px;
+	}
+	section.information .infotable table tr th {
+		font-size: 17px;
+		padding: 10px 8px;
+	}
+	section.information .infotable table tr th.car {
+		width: 390px;
+	}
+	section.information .infotable table tr td.name-car {
+		font-size: 16px;
+	}
+	section.information ol, section.information ul {
+		padding-left: 30px;
+	}
+	section.information li {
+		margin: 3px 0;
+	}
+	section.information ol li {
+		padding-left: 0;
+	}
+	/* блок с информацией конец */
+	/*Кейсы начало*/
+	section.cases .cese-wrap .case-images {
+		justify-content: space-between;
+	}
+	section.cases .cese-wrap .title {
+		padding: 0 10px 0 30px;
+	}
+	section.cases .cese-wrap .info .left-side {
+		width: 44%;
+		padding-left: 30px;
+	}
+	section.cases .cese-wrap .lower-side table {
+		width: 90%;
+	}
+	/*Кейсы конец*/
+	.faq .main-title-small {
+		font-size: 26px;
+		margin: 10px 0 20px;
+	}
+	section.regions .servise-title {
+		font-size: 26px;
+	}
+}
+
+/*col*/
+@media (max-width: 575.98px) {
+	section.banner .banner-text {
+		padding: 10px 4px 20px 4px;
+	}
+	section.banner .banner-text h1 {
+		margin: 30px 0 40px 0;
+		text-align: center;
+		line-height: 1.2;
+	}
+	section.banner .banner-buy {
+		text-align: center;
+	}
+	/* блок преимущества начало */
+	section.benefits .item img {
+		width: 90px;
+	}
+	section.benefits .item span.item-title {
+		font-size: 18px;
+	}
+	/* блок преимущества конец */
+	.servise-title, section.regions .second-title {
+		font-size: 30px;
+	}
+	section.cars .tablist-cars ul.second-tablist li {
+		font-size: 16px;
+		padding: 8px 4px;
+		margin-right: 4px;
+	}
+	section.cars .tablist-cars ul li {
+		font-size: 16px;
+		padding: 8px;
+		margin-right: 10px;
+	}
+	section.cars .swiper-button-next, section.cars .swiper-button-prev {
+		top: 0;
+	}
+	section.cars .swiper-button-next {
+		right: 50px;
+	}
+	section.cars .swiper-button-prev {
+		left: 50px;
+	}
+	section.mover h2, section.cases h2, .faq .servise-title  {
+		font-size: 23px;
+	}
+	section.mover .infotext {
+		margin-bottom: 26px;
+	}
+	section.mover .infotext p {
+		font-size: 16px;
+	}
+	section.mover .text {
+		font-size: 17px;
+	}
+	/* блок с информацией начало */
+	section.information {
+		font-size: 16px;
+	}
+	section.information h2 {
+		font-size: 23px;
+	}
+	section.information h3 {
+		font-size: 19px;
+	}
+	section.information p.marker:before {
+		font-size: 16px;
+	}
+	section.information ol, section.information ul {
+		line-height: 1.3;
+	}
+	section.information .infotable table {
+		width: 380px;
+	}
+	section.information .infotable table tr th.car {
+		width: 244px;
+	}
+	section.information .infotable table tr td.name-car {
+		font-size: 15px;
+		white-space: wrap;
+	}
+	section.information .infotable table tr td {
+		font-size: 15px;
+	}
+	/* блок с информацией конец */
+	/*Кейсы начало*/
+	section.cases .cese-wrap .case-images {
+		max-width: 380px;
+	}
+	/*Кейсы конец*/
+	.faq h3.faq-question {
+		font-size: 18px;
+	}
+	.faq .faq-answer {
+		font-size: 15px;
+	}
+	section.regions .servise-title {
+		font-size: 23px;
+	}
+	section.regions span {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 459.98px) {
+	/*Кейсы начало*/
+	section.cases .cese-wrap .case-images {
+		padding: 0 6px;
+		max-width: 380px;
+	}
+	section.cases .cese-wrap .title {
+		font-size: 17px;
+		padding: 0 10px;
+		height: 58px;
+	}
+	section.cases .cese-wrap .info .left-side {
+		padding-left: 10px;
+	}
+	section.cases .cese-wrap .lower-side table {
+		width: 100%;
+	}
+	/*Кейсы конец*/
+}
+@media (max-width: 399.98px) {
+	/*Кейсы начало*/
+	section.cases {
+		overflow-x: auto;
+	}
+	section.cases .cese-wrap {
+		min-width: 340px;
+	}
+	section.cases .cese-wrap .case-images {
+		height: 190px;
+	}
+	section.cases .cese-wrap .case-images img {
+		max-width: 90px;
+		max-height: 90px;
+	}
+	section.cases .cese-wrap .title {
+		font-size: 15px;
+		padding: 0 4px;
+		height: 50px;
+	}
+	section.cases .cese-wrap .info {
+		font-size: 12px;
+	}
+	section.cases .cese-wrap .info .left-side {
+		padding-left: 4px;
+	}
+	section.cases .cese-wrap .lower-side table thead tr th, section.cases .cese-wrap .lower-side table tfoot tr td {
+		font-size: 13px;
+	}
+	section.cases .cese-wrap .lower-side table .text-left {
+		padding: 7px 2px 5px 10px;
+	}
+	section.cases .cese-wrap .lower-side table .text-center {
+		padding: 7px 0 5px 0;
+	}
+	/*Кейсы конец*/
+	section.regions .servise-title {
+		font-size: 21px;
+	}
+}
